@@ -173,7 +173,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section>
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -187,6 +187,17 @@ export default function Page() {
                 />
               );
             })}
+          </div>
+        </Section>
+          {/* rodo section, keep at bottom of the page */}
+        <Section>
+          <div className="text-pretty font-mono text-sm text-muted-foreground print:text-[8px] print:leading-tight">
+          I agree to the proces sing of personal data provided in this document for 
+          realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 
+          (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 
+          2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of 
+          natural persons with regard to the processing of personal data and on the free movement of such data, 
+          and repealing Directive 95/46/EC (General Data Protection Regulation).
           </div>
         </Section>
       </section>

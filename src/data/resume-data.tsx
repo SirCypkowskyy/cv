@@ -16,272 +16,326 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  BgkLogo,    
+  AgsLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Cyprian Gburek",
+  initials: "CG",
+  location: "Warsaw, Poland, CET",
+  locationLink: "https://www.google.com/maps/place/Warszawa",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full-stack developer, CS Student at the Polish-Japanese Academy of Information Technology",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I am a passionate and goal-oriented computer science student at PJAIT with 4+ years of experience in programming web apps and developing video games. My recent professioanl experience is with business inteligence at the National Development Bank of Poland (BGK), I worked previously as a .NET developer at a small software house.", 
+  avatarUrl: "",
+  personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "dcyprian.a.gburek@gmail.com",
+    tel: "+48602235607",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/SirCypkowskyy",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/cyprian-gburek/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Polish-Japanese Academy of Information Technology",
+      degree: "Bachelor's Ingineering Degree in Computer Science",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
+      company: "Bank Gospodarstwa Krajowego (BGK)",
+      link: "https://www.en.bgk.pl/",
+      badges: ["Hybrid", "Financial Sector", "Banking"],
+      title: "Intern in the Controlling Department",
+      logo: BgkLogo,
       start: "2024",
       end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+      description: "While working at BGK, I was involved in creating Power BI reports, assisted the team in extracting and processing data from the SQL Server data warehouse with Python (Pandas) support. I also automated the process of emailing relevant employees about errors when updating data in the data warehouse. My final contributions were co-creation of Excel financial reports, and I also initiated the topic of Machine Learning utilization within the team. Technologies: SQL Server, Python, Pandas, C# (for automation), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (for Power BI custom visuals)"
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "AGS Systems",
+      link: "https://www.agssystems.pl/en/",
+      badges: ["Hybrid", "Software House", "Leasing", "Financial Sector"],
+      title: "Junior .NET Developer",
+      logo: AgsLogo,
+      start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "During my employment at AGS Systems, I was involved in developing internal full stack applications for leasing and financial entities. Technologies: C#, ASP.NET Core, jQuery, Blazor",
     },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
-    },
-  ],
+     ],
   skills: [
+    "C#",
+    "ASP.NET Core / .NET",
+    "Blazor",
+    "Entity Framework Core",
+    "SignalR",
+    "React / Vite.js",
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Java",
+    "Python",
+    "Docker",
+    "Microsoft Power BI / DAX / M Query",
+    "SQL",
+    "Microsoft Office 365 Apps",
+    "Jira / Microsoft Planner / Microsoft Lists",
+    "Leadership",
+    "Communication",
+    "UML / Enterprise Architect / Lucidchart / Draw.io"
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "Roleplay Campaign Manager",
       techStack: [
         "Full Stack Developer",
         "TypeScript",
         "React",
-        "Node.js",
-        "GraphQL",
+        "C#",
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core",
+        "Vite.js",
+        "SignalR",
+        "Zustand",
+        "Shad.cn",
+        "React Router",
+        "Docker"
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "An application for managing RPG campaigns and real-time chats, created as part of the final project for the Modeling and Analysis of Information Systems course at PJATK.",
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/SirCypkowskyy/Roleplay-Campaign-Manager-PJA/blob/main/README.en.md",
       },
     },
     {
-      title: "Evercast",
+      title: "Sample ASP.NET Core with React and Docker support application",
       techStack: [
-        "Lead Frontend Developer",
+        "C#",
+        "ASP.NET Core",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Zustand",
+        "Shad.cn",
+        "Tailwindcss",
+        "React Router",
+        "i18next",
+        "Nginx",
+        "Docker"
+      ],
+      description: "A sample .Net 8.0 web API with React and Docker support project for demonstration purposes and as a starting point for a fullstack SPA.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/SampleAspNetReactDockerApp"
+      }
+    },
+    {
+      title: "Single Layer Neural Network (Language Recognition)",
+      techStack: [
+        "Python",
         "TypeScript",
         "React",
-        "Node.js",
-        "GraphQL",
+        "Tailwindcss",
+        "DaisyUI",
+        "Apexcharts",
+        "Machine Learning (ML)"
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+      description: "The aim of this project was to create a single layer neural network that would be able to recognize the language of the given text. The network was trained on 4 languages: Polish, English, Spanish and German.",
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
+      }
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Java Discord Gaming Lobbies Bot",
+      techStack: [
+        "JDA",
+        "Java",
+        "MongoDB",
+        "Discord",
+      ],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
+        "Discord bot written in Java, based on the JDA framework, made to facilitate the process of creating temporary gaming lobbies on Discord servers through a dedicated system.",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Java-Discord-Gaming-Lobbies-Bot",
       },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+    }],
+} as const;
+
+export const RESUME_DATA_PL = {
+  name: "Cyprian Gburek",
+  initials: "CG",
+  location: "Warszawa, Polska, CET",
+  locationLink: "https://www.google.com/maps/place/Warszawa",
+  about:
+    "Programista full-stack, student informatyki na Polsko-Japońskiej Akademii Technik Komputerowych",
+  summary:
+    "Jestem pełnym pasji i zorientowanym na cele studentem informatyki na PJATK z ponad 4-letnim doświadczeniem w programowaniu aplikacji internetowych oraz tworzeniu gier wideo. Moje ostatnie doświadczenie zawodowe dotyczyło business intelligence w Banku Gospodarstwa Krajowego (BGK), wcześniej pracowałem jako programista .NET w małym software house.",
+  avatarUrl: "",
+  personalWebsiteUrl: "https://cg-personal.vercel.app/",
+  contact: {
+    email: "dcyprian.a.gburek@gmail.com",
+    tel: "+48602235607",
+    social: [
+      {
+        name: "GitHub",
+        url: "https://github.com/SirCypkowskyy",
+        icon: GitHubIcon,
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+      {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/cyprian-gburek/",
+        icon: LinkedInIcon,
       },
-    },
+    ],
+  },
+  education: [
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+      school: "Polsko-Japońska Akademia Technik Komputerowych",
+      degree: "Inżynier Informatyki",
+      start: "2021",
+      end: "2025",
     },
   ],
+  work: [
+    {
+      company: "Bank Gospodarstwa Krajowego (BGK)",
+      link: "https://www.bgk.pl/",
+      badges: ["Hybrydowy", "Sektor Finansowy", "Bankowość"],
+      title: "Stażysta w Departamencie Kontrolingu",
+      logo: BgkLogo,
+      start: "2024",
+      end: null,
+      description: "Podczas pracy w BGK tworzyłem raporty w Power BI, wspierałem zespół w pobieraniu i przetwarzaniu danych z hurtowni danych SQL Server, korzystając z Python (Pandas). Zautomatyzowałem proces wysyłania e-maili do odpowiednich pracowników w przypadku błędów w aktualizacji danych. Brałem także udział w współtworzeniu raportów finansowych w Excelu oraz zapoczątkowałem temat wykorzystania Machine Learning w zespole. Technologie: SQL Server, Python, Pandas, C# (do automatyzacji), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (dla wizualizacji Power BI)",
+    },
+    {
+      company: "AGS Systems",
+      link: "https://www.agssystems.pl/",
+      badges: ["Hybrydowy", "Software House", "Leasing", "Sektor Finansowy"],
+      title: "Młodszy Programista .NET",
+      logo: AgsLogo,
+      start: "2023",
+      end: "2024",
+      description:
+        "Podczas pracy w AGS Systems, brałem udział w tworzeniu wewnętrznych aplikacji full stack dla podmiotów leasingowych i finansowych. Technologie: C#, ASP.NET Core, jQuery, Blazor",
+    },
+     ],
+  skills: [
+    "C#",
+    "ASP.NET Core / .NET",
+    "Blazor",
+    "Entity Framework Core",
+    "SignalR",
+    "React / Vite.js",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "Python",
+    "Docker",
+    "Microsoft Power BI / DAX / M Query",
+    "SQL",
+    "Microsoft Office 365 Apps",
+    "Jira / Microsoft Planner / Microsoft Lists",
+    "Przywództwo",
+    "Komunikacja",
+    "UML / Enterprise Architect / Lucidchart / Draw.io"
+  ],
+  projects: [
+    {
+      title: "Menedżer Kampanii RPG",
+      techStack: [
+        "Programista Full Stack",
+        "TypeScript",
+        "React",
+        "C#",
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core",
+        "Vite.js",
+        "SignalR",
+        "Zustand",
+        "Shad.cn",
+        "React Router",
+        "Docker"
+      ],
+      description:
+        "Aplikacja do zarządzania kampaniami RPG i czatami w czasie rzeczywistym, stworzona w ramach projektu końcowego na przedmiot Modelowanie i Analiza Systemów Informacyjnych na PJATK.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Roleplay-Campaign-Manager-PJA/blob/main/README.en.md",
+      },
+    },
+    {
+      title: "Przykładowa aplikacja ASP.NET Core z wsparciem dla React i Docker",
+      techStack: [
+        "C#",
+        "ASP.NET Core",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Zustand",
+        "Shad.cn",
+        "Tailwindcss",
+        "React Router",
+        "i18next",
+        "Nginx",
+        "Docker"
+      ],
+      description: "Przykładowa aplikacja webowa .Net 8.0 z wsparciem dla React i Docker, stworzona w celach demonstracyjnych i jako punkt wyjściowy dla pełnostronnicowej aplikacji SPA.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/SampleAspNetReactDockerApp"
+      }
+    },
+    {
+      title: "Jednowarstwowa Sieć Neuronowa (Rozpoznawanie Języka)",
+      techStack: [
+        "Python",
+        "TypeScript",
+        "React",
+        "Tailwindcss",
+        "DaisyUI",
+        "Apexcharts",
+        "Uczenie Maszynowe (ML)"
+      ],
+      description: "Celem projektu było stworzenie jednowarstwowej sieci neuronowej, która potrafiłaby rozpoznawać język podanego tekstu. Sieć była trenowana na 4 językach: polskim, angielskim, hiszpańskim i niemieckim.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
+      }
+    },
+    {
+      title: "Java Discord Gaming Lobbies Bot",
+      techStack: [
+        "JDA",
+        "Java",
+        "MongoDB",
+        "Discord",
+      ],
+      description:
+        "Bot Discord napisany w Javie, oparty na frameworku JDA, stworzony w celu ułatwienia procesu tworzenia tymczasowych lobby do gier na serwerach Discord za pomocą dedykowanego systemu.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Java-Discord-Gaming-Lobbies-Bot",
+      },
+    }],
 } as const;
+
