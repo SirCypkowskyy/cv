@@ -16,8 +16,6 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-  BgkLogo,    
-  AgsLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -29,8 +27,7 @@ export const RESUME_DATA = {
   about:
     "Full-stack developer, CS Student at the Polish-Japanese Academy of Information Technology",
   summary:
-    "I am a passionate and goal-oriented computer science student at PJAIT with 4+ years of experience in programming web apps and developing video games. My recent professioanl experience is with business inteligence at the National Development Bank of Poland (BGK), I worked previously as a .NET developer at a small software house.", 
-  avatarUrl: "",
+    "I am a passionate and goal-oriented computer science student at PJAIT with 5+ years of experience in programming web apps and developing video games. Currently working as a Software Development Specialist at Scanmed Group S.A., previously I gained experience in business intelligence at the National Development Bank of Poland (BGK) and as a .NET developer at a software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -51,18 +48,26 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Polish-Japanese Academy of Information Technology",
-      degree: "Bachelor's Engineering Degree in Computer Science",
+      degree: "Bachelor's Engineering Degree in Computer Science, Business Applications Programming",
       start: "2021",
       end: "2025",
     },
   ],
   work: [
     {
+      company: "Scanmed Group S.A.",
+      link: "https://scanmed.pl/",
+      badges: ["Hybrid", "Medical Sector", "Medical Services"],
+      title: "Software Development and Maintenance Specialist",
+      start: "2024",
+      end: null,
+      description: "While working at Scanmed Group S.A., I am responsible for creating internal software for company employees and its departments. I develop most projects using technologies such as Python and C# (ASP.NET Core) on the backend, and TypeScript/JavaScript/React on the Frontend. I implement my projects in accordance with contemporary programming practices, architectures or design patterns, such as Domain-Driven Design, Event-Sourcing Pattern, Vertical-Slice Architecture, etc. Technologies: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis, Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
+    },
+    {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.en.bgk.pl/",
       badges: ["Hybrid", "Financial Sector", "Banking"],
       title: "Intern in the Controlling Department",
-      logo: BgkLogo,
       start: "2024",
       end: null,
       description: "While working at BGK, I was involved in creating Power BI reports, assisted the team in extracting and processing data from the SQL Server data warehouse with Python (Pandas) support. I also automated the process of emailing relevant employees about errors when updating data in the data warehouse. My final contributions were co-creation of Excel financial reports, and I also initiated the topic of Machine Learning utilization within the team. Technologies: SQL Server, Python, Pandas, C# (for automation), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (for Power BI custom visuals)"
@@ -72,13 +77,12 @@ export const RESUME_DATA = {
       link: "https://www.agssystems.pl/en/",
       badges: ["Hybrid", "Software House", "Leasing", "Financial Sector"],
       title: "Junior .NET Developer",
-      logo: AgsLogo,
       start: "2023",
       end: "2024",
       description:
         "During my employment at AGS Systems, I was involved in developing internal full stack applications for leasing and financial entities. Technologies: C#, ASP.NET Core, jQuery, Blazor",
     },
-     ],
+  ],
   skills: [
     "C#",
     "ASP.NET Core / .NET",
@@ -100,6 +104,25 @@ export const RESUME_DATA = {
     "UML / Enterprise Architect / Lucidchart / Draw.io"
   ],
   projects: [
+    {
+      title: "MoodCat",
+      techStack: [
+        "Backend Developer",
+        "TypeScript",
+        "C#",
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core",
+        "Microsoft Identity",
+        "OpenAI API",
+        "SignalR"
+      ],
+      description: "A HackYeah 2024 hackathon project serving as an intermediary between therapists and patients. The app enables voice and text mood diary entries, which are AI-processed into periodic reports for therapists. Features include patient-specific questionnaires, mood tracking, and automated report generation, improving the efficiency of therapeutic care.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/MoodCat-App",
+      },
+    },
     {
       title: "Roleplay Campaign Manager",
       techStack: [
@@ -188,8 +211,7 @@ export const RESUME_DATA_PL = {
   about:
     "Programista full-stack, student informatyki na Polsko-Japońskiej Akademii Technik Komputerowych",
   summary:
-    "Jestem pełnym pasji i zorientowanym na cele studentem informatyki na PJATK z ponad 4-letnim doświadczeniem w programowaniu aplikacji internetowych oraz tworzeniu gier wideo. Moje ostatnie doświadczenie zawodowe dotyczyło business intelligence w Banku Gospodarstwa Krajowego (BGK), wcześniej pracowałem jako programista .NET w małym software house.",
-  avatarUrl: "",
+    "Jestem pełnym pasji i zorientowanym na cele studentem informatyki na PJATK z ponad 5-letnim doświadczeniem w programowaniu aplikacji internetowych oraz tworzeniu gier wideo. Obecnie pracuję jako Specjalista ds. Utrzymania i Rozwoju Oprogramowania w Grupie Scanmed S.A., wcześniej zdobywałem doświadczenie w business intelligence w Banku Gospodarstwa Krajowego (BGK) oraz jako programista .NET w software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -210,18 +232,26 @@ export const RESUME_DATA_PL = {
   education: [
     {
       school: "Polsko-Japońska Akademia Technik Komputerowych",
-      degree: "Inżynier Informatyki",
+      degree: "Inżynier Informatyki, specjalizacja Programowanie Aplikacji Biznesowych",
       start: "2021",
       end: "2025",
     },
   ],
   work: [
     {
+      company: "Grupa Scanmed S.A.",
+      link: "https://scanmed.pl/",
+      badges: ["Hybrydowy", "Sektor Medyczny", "Usługi Medyczne"],
+      title: "Specjalista ds. Utrzymania i Rozwoju Oprogramowania",
+      start: "2024",
+      end: null,
+      description: "Pracując w Grupie Scanmed S.A. zajmuję się tworzeniem internal oprogramowania do wykorzystania przez pracowników firmy oraz jej departamenty. Większość projektów opracowuję z wykorzystaniem technologii takich jak Python czy C# (ASP.NET Core) na backendzie, i TypeScript/JavaScript/React na Frontendzie. Swoje projekty realizuję zgodnie ze współczesnymi praktykami programistycznymi, architekturami czy wzorcami projektowymi, jak np. Domain-Driven Design, Event-Sourcing Pattern, Vertical-Slice Architecture, etc. Technologie: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis, Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
+    },
+    {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.bgk.pl/",
       badges: ["Hybrydowy", "Sektor Finansowy", "Bankowość"],
       title: "Stażysta w Departamencie Kontrolingu",
-      logo: BgkLogo,
       start: "2024",
       end: null,
       description: "Podczas pracy w BGK tworzyłem raporty w Power BI, wspierałem zespół w pobieraniu i przetwarzaniu danych z hurtowni danych SQL Server, korzystając z Python (Pandas). Zautomatyzowałem proces wysyłania e-maili do odpowiednich pracowników w przypadku błędów w aktualizacji danych. Brałem także udział w współtworzeniu raportów finansowych w Excelu oraz zapoczątkowałem temat wykorzystania Machine Learning w zespole. Technologie: SQL Server, Python, Pandas, C# (do automatyzacji), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (dla wizualizacji Power BI)",
@@ -231,13 +261,12 @@ export const RESUME_DATA_PL = {
       link: "https://www.agssystems.pl/",
       badges: ["Hybrydowy", "Software House", "Leasing", "Sektor Finansowy"],
       title: "Młodszy Programista .NET",
-      logo: AgsLogo,
       start: "2023",
       end: "2024",
       description:
         "Podczas pracy w AGS Systems, brałem udział w tworzeniu wewnętrznych aplikacji full stack dla podmiotów leasingowych i finansowych. Technologie: C#, ASP.NET Core, jQuery, Blazor",
     },
-     ],
+  ],
   skills: [
     "C#",
     "ASP.NET Core / .NET",
@@ -259,6 +288,25 @@ export const RESUME_DATA_PL = {
     "UML / Enterprise Architect / Lucidchart / Draw.io"
   ],
   projects: [
+    {
+      title: "MoodCat",
+      techStack: [
+        "Backend Developer",
+        "TypeScript",
+        "C#",
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core",
+        "Microsoft Identity",
+        "OpenAI",
+        "SignalR"
+      ],
+      description: "Projekt stworzony podczas hackathonu HackYeah 2024, służący jako pomost między terapeutami a pacjentami. Aplikacja umożliwia tworzenie głosowych i tekstowych wpisów w dzienniku nastrojów, które są przetwarzane przez AI w okresowe raporty dla terapeutów. Funkcjonalności obejmują spersonalizowane kwestionariusze, śledzenie nastrojów oraz automatyczne generowanie raportów, usprawniając proces opieki terapeutycznej.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/MoodCat-App",
+      },
+    },
     {
       title: "Menedżer Kampanii RPG",
       techStack: [

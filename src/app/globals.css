@@ -73,6 +73,12 @@
   body {
     @apply bg-background text-foreground;
   }
+  @media print {
+    section {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+  }
 }
 
 .print-force-new-page {

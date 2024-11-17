@@ -132,7 +132,6 @@ export default function Page() {
           <Avatar className="size-28">
             <AvatarImage
               alt={currentResumeData.name}
-              src={currentResumeData.avatarUrl}
             />
             <AvatarFallback>{currentResumeData.initials}</AvatarFallback>
           </Avatar>
@@ -239,7 +238,7 @@ export default function Page() {
         </Section>
 
         {/* Sekcja Projekty */}
-        <Section>
+        <Section className="pt-10">
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Projects" : "Projekty"}
           </h2>
