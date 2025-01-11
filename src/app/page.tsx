@@ -224,7 +224,7 @@ export default function Page() {
         </Section>
 
         {/* Sekcja Umiejętności */}
-        <Section>
+        {/* <Section>
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Skills" : "Umiejętności"}
           </h2>
@@ -235,10 +235,10 @@ export default function Page() {
               </Badge>
             ))}
           </div>
-        </Section>
+        </Section> */}
 
         {/* Sekcja Projekty */}
-        <Section className="pt-10">
+        {/* <Section className="">
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Projects" : "Projekty"}
           </h2>
@@ -253,7 +253,7 @@ export default function Page() {
               />
             ))}
           </div>
-        </Section>
+        </Section> */}
 
         {/* Sekcja RODO */}
         <Section>

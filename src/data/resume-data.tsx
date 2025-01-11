@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -25,9 +6,9 @@ export const RESUME_DATA = {
   location: "Warsaw, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Warszawa",
   about:
-    "Full-stack developer, CS Student at the Polish-Japanese Academy of Information Technology",
+    "Full-stack developer",
   summary:
-    "I am a passionate and goal-oriented computer science student at PJAIT with 5+ years of experience in programming web apps and developing video games. Currently working as a Software Development Specialist at Scanmed Group S.A., previously I gained experience in business intelligence at the National Development Bank of Poland (BGK) and as a .NET developer at a software house.",
+    "I am a passionate and goal-oriented computer science student at PJAIT with 5+ years of experience in programming web apps and developing video games. Currently working as a Software Development Specialist at Scanmed Group S.A. and as a consultant for business process automation at the National Development Bank of Poland (BGK), previously I gained experience in business intelligence at (BGK) and as a NET developer at a software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -55,9 +36,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Bank Gospodarstwa Krajowego (BGK)",
+      link: "https://www.en.bgk.pl/",
+      badges: ["Financial Sector", "Banking"],
+      title: "Consultant for Business Process Automation",
+      start: "2025",
+      end: null,
+      description: "As a consultant for business process automation, I am responsible for creating and maintaining applications that support the work of my BGK department. Most of the projects I work on use technologies such as Python and SQL Server, and TypeScript/JavaScript/React on the Frontend."
+    },
+    {
       company: "Scanmed Group S.A.",
       link: "https://scanmed.pl/",
-      badges: ["Hybrid", "Medical Sector", "Medical Services"],
+      badges: ["Medical Sector", "Medical Services"],
       title: "Software Development and Maintenance Specialist",
       start: "2024",
       end: null,
@@ -66,16 +56,16 @@ export const RESUME_DATA = {
     {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.en.bgk.pl/",
-      badges: ["Hybrid", "Financial Sector", "Banking"],
+      badges: ["Financial Sector", "Banking"],
       title: "Intern in the Controlling Department",
       start: "2024",
-      end: null,
+      end: "2024",
       description: "While working at BGK, I was involved in creating Power BI reports, assisted the team in extracting and processing data from the SQL Server data warehouse with Python (Pandas) support. I also automated the process of emailing relevant employees about errors when updating data in the data warehouse. My final contributions were co-creation of Excel financial reports, and I also initiated the topic of Machine Learning utilization within the team. Technologies: SQL Server, Python, Pandas, C# (for automation), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (for Power BI custom visuals)"
     },
     {
       company: "AGS Systems",
       link: "https://www.agssystems.pl/en/",
-      badges: ["Hybrid", "Software House", "Leasing", "Financial Sector"],
+      badges: ["Software House", "Leasing & Financial", "Financial Sector"],
       title: "Junior .NET Developer",
       start: "2023",
       end: "2024",
@@ -89,18 +79,15 @@ export const RESUME_DATA = {
     "Blazor",
     "Entity Framework Core",
     "SignalR",
-    "React / Vite.js",
+    "React",
     "JavaScript",
     "TypeScript",
     "Java",
     "Python",
     "Docker",
     "Microsoft Power BI / DAX / M Query",
-    "SQL",
+    "SQL (PostgreSQL, SQL Server, SQLite)",
     "Microsoft Office 365 Apps",
-    "Jira / Microsoft Planner / Microsoft Lists",
-    "Leadership",
-    "Communication",
     "UML / Enterprise Architect / Lucidchart / Draw.io"
   ],
   projects: [
@@ -133,7 +120,6 @@ export const RESUME_DATA = {
         "ASP.NET Core",
         "SQL Server",
         "Entity Framework Core",
-        "Vite.js",
         "SignalR",
         "Zustand",
         "Shad.cn",
@@ -146,28 +132,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://github.com/SirCypkowskyy/Roleplay-Campaign-Manager-PJA/blob/main/README.en.md",
       },
-    },
-    {
-      title: "Sample ASP.NET Core with React and Docker support application",
-      techStack: [
-        "C#",
-        "ASP.NET Core",
-        "PostgreSQL",
-        "React",
-        "TypeScript",
-        "Zustand",
-        "Shad.cn",
-        "Tailwindcss",
-        "React Router",
-        "i18next",
-        "Nginx",
-        "Docker"
-      ],
-      description: "A sample .Net 8.0 web API with React and Docker support project for demonstration purposes and as a starting point for a fullstack SPA.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/SampleAspNetReactDockerApp"
-      }
     },
     {
       title: "Single Layer Neural Network (Language Recognition)",
@@ -185,22 +149,8 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
       }
-    },
-    {
-      title: "Java Discord Gaming Lobbies Bot",
-      techStack: [
-        "JDA",
-        "Java",
-        "MongoDB",
-        "Discord",
-      ],
-      description:
-        "Discord bot written in Java, based on the JDA framework, made to facilitate the process of creating temporary gaming lobbies on Discord servers through a dedicated system.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/Java-Discord-Gaming-Lobbies-Bot",
-      },
-    }],
+    }
+  ],
 } as const;
 
 export const RESUME_DATA_PL = {
@@ -209,9 +159,9 @@ export const RESUME_DATA_PL = {
   location: "Warszawa, Polska, CET",
   locationLink: "https://www.google.com/maps/place/Warszawa",
   about:
-    "Programista full-stack, student informatyki na Polsko-Japońskiej Akademii Technik Komputerowych",
+    "Programista full-stack",
   summary:
-    "Jestem pełnym pasji i zorientowanym na cele studentem informatyki na PJATK z ponad 5-letnim doświadczeniem w programowaniu aplikacji internetowych oraz tworzeniu gier wideo. Obecnie pracuję jako Specjalista ds. Utrzymania i Rozwoju Oprogramowania w Grupie Scanmed S.A., wcześniej zdobywałem doświadczenie w business intelligence w Banku Gospodarstwa Krajowego (BGK) oraz jako programista .NET w software house.",
+    "Jestem pełnym pasji studentem informatyki na PJATK z ponad 5-letnim doświadczeniem w programowaniu aplikacji webowych oraz tworzeniu gier wideo (w Unity). Obecnie pracuję jako Specjalista ds. Utrzymania i Rozwoju Oprogramowania w Grupie Scanmed S.A. oraz jako konsultant ds. automatyzacji procesów biznesowych w Banku Gospodarstwa Krajowego, wcześniej zdobywałem doświadczenie w BI w BGK oraz jako programista .NET w niewielkim software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -239,27 +189,36 @@ export const RESUME_DATA_PL = {
   ],
   work: [
     {
+      company: "Bank Gospodarstwa Krajowego (BGK)",
+      link: "https://www.bgk.pl/",
+      badges: ["Sektor Finansowy", "Bankowość"],
+      title: "Konsultant ds. Automatyzacji Procesów Biznesowych",
+      start: "2025",
+      end: null,
+      description: "Jako konsultant ds. automatyzacji procesów biznesowych, zajmuję się tworzeniem i utrzymywaniem aplikacji wspomagających pracę członków mojego departamentu w BGK. Większość projektów realizuję z wykorzystaniem Pythona, SQL Server oraz TypeScript z wykorzystaniem frameworków takich jak React, Next.js Tailwindcss, Shad.cn, etc.",
+    },
+    {
       company: "Grupa Scanmed S.A.",
       link: "https://scanmed.pl/",
-      badges: ["Hybrydowy", "Sektor Medyczny", "Usługi Medyczne"],
+      badges: ["Sektor Medyczny", "Usługi Medyczne"],
       title: "Specjalista ds. Utrzymania i Rozwoju Oprogramowania",
       start: "2024",
       end: null,
-      description: "Pracując w Grupie Scanmed S.A. zajmuję się tworzeniem internal oprogramowania do wykorzystania przez pracowników firmy oraz jej departamenty. Większość projektów opracowuję z wykorzystaniem technologii takich jak Python czy C# (ASP.NET Core) na backendzie, i TypeScript/JavaScript/React na Frontendzie. Swoje projekty realizuję zgodnie ze współczesnymi praktykami programistycznymi, architekturami czy wzorcami projektowymi, jak np. Domain-Driven Design, Event-Sourcing Pattern, Vertical-Slice Architecture, etc. Technologie: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis, Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
+      description: "Pracując w Grupie Scanmed S.A. zajmuję się tworzeniem internal oprogramowania do wykorzystania przez pracowników firmy oraz jej departamenty. Większość projektów opracowuję z wykorzystaniem technologii takich jak Python czy C# (ASP.NET Core) na backendzie, i TypeScript/JavaScript/React na Frontendzie. Swoje projekty realizuję zgodnie ze współczesnymi praktykami programistycznymi, architekturami czy wzorcami projektowymi, jak np. Domain-Driven Design, Event-Sourcing Architecture, Vertical-Slice Architecture, etc. Technologie: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
     },
     {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.bgk.pl/",
-      badges: ["Hybrydowy", "Sektor Finansowy", "Bankowość"],
+      badges: ["Sektor Finansowy", "Bankowość"],
       title: "Stażysta w Departamencie Kontrolingu",
       start: "2024",
-      end: null,
+      end: "2025",
       description: "Podczas pracy w BGK tworzyłem raporty w Power BI, wspierałem zespół w pobieraniu i przetwarzaniu danych z hurtowni danych SQL Server, korzystając z Python (Pandas). Zautomatyzowałem proces wysyłania e-maili do odpowiednich pracowników w przypadku błędów w aktualizacji danych. Brałem także udział w współtworzeniu raportów finansowych w Excelu oraz zapoczątkowałem temat wykorzystania Machine Learning w zespole. Technologie: SQL Server, Python, Pandas, C# (do automatyzacji), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (dla wizualizacji Power BI)",
     },
     {
       company: "AGS Systems",
       link: "https://www.agssystems.pl/",
-      badges: ["Hybrydowy", "Software House", "Leasing", "Sektor Finansowy"],
+      badges: ["Software House", "Leasing", "Sektor Finansowy"],
       title: "Młodszy Programista .NET",
       start: "2023",
       end: "2024",
@@ -273,18 +232,15 @@ export const RESUME_DATA_PL = {
     "Blazor",
     "Entity Framework Core",
     "SignalR",
-    "React / Vite.js",
+    "React",
     "JavaScript",
     "TypeScript",
     "Java",
     "Python",
     "Docker",
     "Microsoft Power BI / DAX / M Query",
-    "SQL",
+    "SQL (PostgreSQL, SQL Server, SQLite)",
     "Microsoft Office 365 Apps",
-    "Jira / Microsoft Planner / Microsoft Lists",
-    "Przywództwo",
-    "Komunikacja",
     "UML / Enterprise Architect / Lucidchart / Draw.io"
   ],
   projects: [
@@ -332,28 +288,6 @@ export const RESUME_DATA_PL = {
       },
     },
     {
-      title: "Przykładowa aplikacja ASP.NET Core z wsparciem dla React i Docker",
-      techStack: [
-        "C#",
-        "ASP.NET Core",
-        "PostgreSQL",
-        "React",
-        "TypeScript",
-        "Zustand",
-        "Shad.cn",
-        "Tailwindcss",
-        "React Router",
-        "i18next",
-        "Nginx",
-        "Docker"
-      ],
-      description: "Przykładowa aplikacja webowa .Net 8.0 z wsparciem dla React i Docker, stworzona w celach demonstracyjnych i jako punkt wyjściowy dla pełnostronnicowej aplikacji SPA.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/SampleAspNetReactDockerApp"
-      }
-    },
-    {
       title: "Jednowarstwowa Sieć Neuronowa (Rozpoznawanie Języka)",
       techStack: [
         "Python",
@@ -369,21 +303,7 @@ export const RESUME_DATA_PL = {
         label: "github.com",
         href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
       }
-    },
-    {
-      title: "Java Discord Gaming Lobbies Bot",
-      techStack: [
-        "JDA",
-        "Java",
-        "MongoDB",
-        "Discord",
-      ],
-      description:
-        "Bot Discord napisany w Javie, oparty na frameworku JDA, stworzony w celu ułatwienia procesu tworzenia tymczasowych lobby do gier na serwerach Discord za pomocą dedykowanego systemu.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/Java-Discord-Gaming-Lobbies-Bot",
-      },
-    }],
+    }
+  ],
 } as const;
 
