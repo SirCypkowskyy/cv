@@ -238,7 +238,7 @@ export default function Page() {
         </Section> */}
 
         {/* Sekcja Projekty */}
-        <Section className="">
+        <Section className="mt-4">
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Projects" : "Projekty"}
           </h2>
