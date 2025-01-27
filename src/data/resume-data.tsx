@@ -92,6 +92,22 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Apocalypse Guide",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "SQLite"
+      ],
+      description: "An advanced AI-powered tool for creating character sheets in the 'Apocalypse World' RPG system. The application guides users through a personalized, interactive character creation process, utilizing AI models to generate contextual questions and character visualizations.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Projekt-SUML-PJATK",
+      },
+    },
+    {
       title: "MoodCat",
       techStack: [
         "Backend Developer",
@@ -132,23 +148,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://github.com/SirCypkowskyy/Roleplay-Campaign-Manager-PJA/blob/main/README.en.md",
       },
-    },
-    {
-      title: "Single Layer Neural Network (Language Recognition)",
-      techStack: [
-        "Python",
-        "TypeScript",
-        "React",
-        "Tailwindcss",
-        "DaisyUI",
-        "Apexcharts",
-        "Machine Learning (ML)"
-      ],
-      description: "The aim of this project was to create a single layer neural network that would be able to recognize the language of the given text. The network was trained on 4 languages: Polish, English, Spanish and German.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
-      }
     }
   ],
 } as const;
@@ -245,6 +244,22 @@ export const RESUME_DATA_PL = {
   ],
   projects: [
     {
+      title: "Przewodnik Apokalipsy",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "SQLite"
+      ],
+      description: "Zaawansowane narzędzie wykorzystujące sztuczną inteligencję do tworzenia kart postaci w systemie RPG 'Apocalypse World'. Aplikacja przeprowadza użytkownika przez spersonalizowany, interaktywny proces kreacji bohatera, wykorzystując modele AI do generowania kontekstowych pytań i wizualizacji postaci.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SirCypkowskyy/Projekt-SUML-PJATK",
+      },
+    },
+    {
       title: "MoodCat",
       techStack: [
         "Backend Developer",
@@ -286,23 +301,6 @@ export const RESUME_DATA_PL = {
         label: "github.com",
         href: "https://github.com/SirCypkowskyy/Roleplay-Campaign-Manager-PJA/blob/main/README.en.md",
       },
-    },
-    {
-      title: "Jednowarstwowa Sieć Neuronowa (Rozpoznawanie Języka)",
-      techStack: [
-        "Python",
-        "TypeScript",
-        "React",
-        "Tailwindcss",
-        "DaisyUI",
-        "Apexcharts",
-        "Uczenie Maszynowe (ML)"
-      ],
-      description: "Celem projektu było stworzenie jednowarstwowej sieci neuronowej, która potrafiłaby rozpoznawać język podanego tekstu. Sieć była trenowana na 4 językach: polskim, angielskim, hiszpańskim i niemieckim.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SirCypkowskyy/Single-Layer-Neural-Network-LR"
-      }
     }
   ],
 } as const;

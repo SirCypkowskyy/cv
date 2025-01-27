@@ -238,7 +238,7 @@ export default function Page() {
         </Section> */}
 
         {/* Sekcja Projekty */}
-        {/* <Section className="">
+        <Section className="">
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Projects" : "Projekty"}
           </h2>
@@ -253,7 +253,7 @@ export default function Page() {
               />
             ))}
           </div>
-        </Section> */}
+        </Section>
 
         {/* Sekcja RODO */}
         <Section>

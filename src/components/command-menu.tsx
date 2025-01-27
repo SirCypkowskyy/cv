@@ -61,7 +61,9 @@ export const CommandMenu = ({ links, lang }: Props) => {
             <CommandItem
               onSelect={() => {
                 setOpen(false);
-                window.print();
+                setTimeout(() => {
+                  window.print();
+                }, 100);
               }}
             >
               <span>
