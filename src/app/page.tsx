@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -129,12 +129,12 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          {/* <Avatar className="size-28">
             <AvatarImage
               alt={currentResumeData.name}
             />
             <AvatarFallback>{currentResumeData.initials}</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
 
         {/* Sekcja About */}
@@ -224,7 +224,7 @@ export default function Page() {
         </Section>
 
         {/* Sekcja Umiejętności */}
-        {/* <Section>
+        <Section>
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Skills" : "Umiejętności"}
           </h2>
@@ -235,10 +235,10 @@ export default function Page() {
               </Badge>
             ))}
           </div>
-        </Section> */}
-
+        </Section>
+        {/* Spacer (tylko na druku, od nowej strony) */}
         {/* Sekcja Projekty */}
-        <Section className="mt-4">
+        <Section className="print:pt-8">
           <h2 className="text-xl font-bold">
             {language === "EN" ? "Projects" : "Projekty"}
           </h2>
