@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Full-stack developer",
   summary:
-    "I am a passionate and goal-oriented computer science student at PJAIT with 5+ years of experience in programming web apps and developing video games. Currently working as a Software Development Specialist at Scanmed Group S.A. and as a consultant for business process automation at the National Development Bank of Poland (BGK), previously I gained experience in business intelligence at (BGK) and as a NET developer at a software house.",
+    "I am a passionate and goal-oriented computer science student at PJAIT with 5+ years of experience in programming web apps and developing video games. I'm currently working as a consultant for Business Process Automation at the National Development Bank of Poland (BGK), previously I gained experience in software development at Scanmed Group, business intelligence at BGK, and as a .NET developer at a software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -40,7 +40,7 @@ export const RESUME_DATA = {
       link: "https://www.en.bgk.pl/",
       badges: ["Financial Sector", "Banking"],
       title: "Consultant for Business Process Automation",
-      start: "2025",
+      start: "2025/01",
       end: null,
       description: "As a consultant for business process automation, I am responsible for creating and maintaining applications that support the work of my BGK department. Most of the projects I work on use technologies such as Python and SQL Server, and TypeScript/JavaScript/React on the Frontend."
     },
@@ -49,17 +49,18 @@ export const RESUME_DATA = {
       link: "https://scanmed.pl/",
       badges: ["Medical Sector", "Medical Services"],
       title: "Software Development and Maintenance Specialist",
-      start: "2024",
-      end: null,
-      description: "While working at Scanmed Group S.A., I am responsible for creating internal software for company employees and its departments. I develop most projects using technologies such as Python and C# (ASP.NET Core) on the backend, and TypeScript/JavaScript/React on the Frontend. I implement my projects in accordance with contemporary programming practices, architectures or design patterns, such as Domain-Driven Design, Event-Sourcing Pattern, Vertical-Slice Architecture, etc. Technologies: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis, Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
+      start: "2024/10",
+      end: "2025/01",
+      description: "Led the development of two major internal applications supporting daily operations of company employees. The first was a full-stack solution (.NET, React) with a dashboard and background jobs, utilizing Hangfire for task scheduling, SignalR for real-time updates, and RabbitMQ for microservice communication, all implemented using DDD, CQRS, and Event-Driven Architecture. The second project was a desktop application with an embedded web interface, built with React and Python.\n\nBeyond leading these two projects, I was responsible for developing other minor full-stack and backend-only applications using ASP.NET Core, SignalR and React, managing infrastructure with Docker and reverse proxies (Nginx, Traefik), working with various databases (MSSQL, PostgreSQL) and message brokers (Redis, RabbitMQ), as well as maintaining and creating Enova system extensions. My departure was a result of organizational restructuring following the company's acquisition by AHP group, which led to staff reductions across certain departments."
     },
     {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.en.bgk.pl/",
       badges: ["Financial Sector", "Banking"],
       title: "Intern in the Controlling Department",
-      start: "2024",
-      end: "2024",
+      start: "2024/07",
+      end: "2024/12",
+
       description: "While working at BGK, I was involved in creating Power BI reports, assisted the team in extracting and processing data from the SQL Server data warehouse with Python (Pandas) support. I also automated the process of emailing relevant employees about errors when updating data in the data warehouse. My final contributions were co-creation of Excel financial reports, and I also initiated the topic of Machine Learning utilization within the team. Technologies: SQL Server, Python, Pandas, C# (for automation), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (for Power BI custom visuals)"
     },
     {
@@ -160,7 +161,7 @@ export const RESUME_DATA_PL = {
   about:
     "Programista full-stack",
   summary:
-    "Jestem pełnym pasji studentem informatyki na PJATK z ponad 5-letnim doświadczeniem w programowaniu aplikacji webowych oraz tworzeniu gier wideo (w Unity). Obecnie pracuję jako Specjalista ds. Utrzymania i Rozwoju Oprogramowania w Grupie Scanmed S.A. oraz jako konsultant ds. automatyzacji procesów biznesowych w Banku Gospodarstwa Krajowego, wcześniej zdobywałem doświadczenie w BI w BGK oraz jako programista .NET w niewielkim software house.",
+    "Jestem pełnym pasji studentem informatyki na PJATK z ponad 5-letnim doświadczeniem w programowaniu aplikacji webowych oraz tworzeniu gier wideo. Obecnie pracuję jako konsultant ds. automatyzacji procesów biznesowych w Banku Gospodarstwa Krajowego, wcześniej zdobywałem doświadczenie jako specjalista ds. rozwoju oprogramowania w Grupie Scanmed, w BI w BGK oraz jako programista .NET w software house.",
   personalWebsiteUrl: "https://cg-personal.vercel.app/",
   contact: {
     email: "dcyprian.a.gburek@gmail.com",
@@ -192,7 +193,7 @@ export const RESUME_DATA_PL = {
       link: "https://www.bgk.pl/",
       badges: ["Sektor Finansowy", "Bankowość"],
       title: "Konsultant ds. Automatyzacji Procesów Biznesowych",
-      start: "2025",
+      start: "2025/01",
       end: null,
       description: "Jako konsultant ds. automatyzacji procesów biznesowych, zajmuję się tworzeniem i utrzymywaniem aplikacji wspomagających pracę członków mojego departamentu w BGK. Większość projektów realizuję z wykorzystaniem Pythona, SQL Server oraz TypeScript z wykorzystaniem frameworków takich jak React, Next.js Tailwindcss, Shad.cn, etc.",
     },
@@ -201,17 +202,17 @@ export const RESUME_DATA_PL = {
       link: "https://scanmed.pl/",
       badges: ["Sektor Medyczny", "Usługi Medyczne"],
       title: "Specjalista ds. Utrzymania i Rozwoju Oprogramowania",
-      start: "2024",
-      end: null,
-      description: "Pracując w Grupie Scanmed S.A. zajmuję się tworzeniem internal oprogramowania do wykorzystania przez pracowników firmy oraz jej departamenty. Większość projektów opracowuję z wykorzystaniem technologii takich jak Python czy C# (ASP.NET Core) na backendzie, i TypeScript/JavaScript/React na Frontendzie. Swoje projekty realizuję zgodnie ze współczesnymi praktykami programistycznymi, architekturami czy wzorcami projektowymi, jak np. Domain-Driven Design, Event-Sourcing Architecture, Vertical-Slice Architecture, etc. Technologie: C#, ASP.NET Core, EF Core, MediatR, RabbitMQ, Redis Docker, React, TypeScript, JavaScript, SQL Server, Tailwindcss, Shad.cn, Python, Pywebview",
+      start: "2024/10",
+      end: "2025/01",
+      description: "Kierowałem rozwojem dwóch głównych aplikacji wewnętrznych wspierających codzienną pracę pracowników firmy. Pierwsza z nich to rozwiązanie full-stack (.NET, React) z dashboardem i zadaniami wykonywanymi w tle, wykorzystujące Hangfire do harmonogramowania zadań, SignalR do aktualizacji w czasie rzeczywistym oraz RabbitMQ do komunikacji między mikroserwisami, wszystko zaimplementowane z wykorzystaniem architektury DDD, CQRS i Event-Driven. Drugi projekt to aplikacja desktopowa z wbudowanym interfejsem webowym, zbudowana przy użyciu React i Python.\n\nPoza kierowaniem tymi dwoma projektami, byłem odpowiedzialny za rozwój innych, pomniejszych aplikacji full-stack i backend-only z wykorzystaniem ASP.NET Core, SignalR i React, zarządzanie infrastrukturą przy użyciu Dockera i reverse proxy (Nginx, Traefik), pracę z różnymi bazami danych (MSSQL, PostgreSQL) i brokerami wiadomości (Redis, RabbitMQ), a także utrzymanie i tworzenie rozszerzeń do systemu Enova. Moje odejście było wynikiem restrukturyzacji organizacyjnej po przejęciu firmy przez grupę AHP, która doprowadziła do redukcji personelu w części departamentów."
     },
     {
       company: "Bank Gospodarstwa Krajowego (BGK)",
       link: "https://www.bgk.pl/",
       badges: ["Sektor Finansowy", "Bankowość"],
       title: "Stażysta w Departamencie Kontrolingu",
-      start: "2024",
-      end: "2025",
+      start: "2024/07",
+      end: "2024/12",
       description: "Podczas pracy w BGK tworzyłem raporty w Power BI, wspierałem zespół w pobieraniu i przetwarzaniu danych z hurtowni danych SQL Server, korzystając z Python (Pandas). Zautomatyzowałem proces wysyłania e-maili do odpowiednich pracowników w przypadku błędów w aktualizacji danych. Brałem także udział w współtworzeniu raportów finansowych w Excelu oraz zapoczątkowałem temat wykorzystania Machine Learning w zespole. Technologie: SQL Server, Python, Pandas, C# (do automatyzacji), Microsoft Power BI, M Query, DAX, JavaScript & TypeScript (dla wizualizacji Power BI)",
     },
     {
